@@ -1,0 +1,61 @@
+/* Pig Game | Created by Md Rayhan Munshi - facebook.com/mrayhanmunshi */
+/* extra small device start */
+@media(max-width:575px) {
+    .player-name {
+	font-size: 20px;
+	
+}
+    button:hover i { margin-right: 10px; }
+button {
+    font-size: 16px;
+}
+
+i {
+margin-right: 7px;
+font-size: 22px;
+margin-top: -3px;
+}
+    .player-current-box {
+	padding: 0;
+}
+    .btn-roll {
+	top: 360px;
+}
+    .btn-hold {
+	top: 405px;
+}
+    .btn-new {
+	top: 65px;
+}
+}
+/* extra small device end */
+
+/* small device start */
+@media(min-width:576px) and (max-width:767px) {
+    .player-name {
+	font-size: 28px;
+}
+    button:hover i { margin-right: 10px; }
+button {
+    font-size: 16px;
+}
+
+i {
+margin-right: 7px;
+font-size: 23px;
+margin-top: -4px;
+}
+}
+/* small device end */
+
+/* medium device start */
+@media(min-width: 768px) and (max-width: 991px) {
+   
+}
+/* medium device end */
+
+/* large device start */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+/* large device end */
